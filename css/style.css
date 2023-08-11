@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+@import url(/css/reset.css);
+@import url(/css/bootstrap-grid.css);
+@import url(/css/bootstrap-grid.css.map);
+*{box-sizing: border-box;}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap-warp{
+    flex-wrap: wrap;
+}
+
+.flex-direction-column{
+    flex-direction:column;
+}
+
+.flex-direction-row{
+    flex-direction:row;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+
+@media (max-width: 758px) {
+
+
+    .text-sm-center{
+        text-align: center;
+    }
+
+    .d-sm-flex{
+        display: flex;
+    }
+
+    .flex-sm-wrap-warp{
+        flex-wrap: wrap;
+    }
+
+    .flex-sm-direction-column{
+        flex-direction:column;
+    }
+
+    .flex-sm-direction-row{
+        flex-direction:row;
+    }
+
+    .justify-sm-content-between{
+        justify-content: space-between;
+    }
+
+    .align-sm-items-center{
+        align-items: center;
+    }
+
+    .d-sm-block{
+        display: block;
+    }
+
+    .d-sm-inline-block{
+        display: inline-block;
+    }
+
+}
+/* ----------------------------------------------------------- */
+
+/* haeder */
+header{
+    padding-top: 8px;
+}
+
+.small-logo>a{
+    display: inline-block;
+    width: 42px;
+    height: 17px;
+    background: url(/design/minidaum_v5.png) no-repeat left top;
+    background-size: 290%;
+}
+
+.btn-login{
+    width: 50px;
+    height: 24px;
+    border: 1px solid #4e4e4e;
+    font-size: 12px;
+    line-height: 12px;
+    color: #666;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.top-right-nav{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.small-email{
+    width: 24px;
+    height: 24px;
+    background: url(/design/minidaum_v5.png) no-repeat left -22px;
+    background-size: 540%; 
+}
+
+.small-list{
+    width: 24px;
+    height: 26px;
+    background: url(/design/minidaum_v5.png) no-repeat -35px -21px;
+    background-size: 525%;  
+    position: relative;
+    cursor: pointer;
+}
+
+.small-navbox{
+    position: absolute;  
+    top: 28px; 
+    right: 0;  
+    display: none;
+}
+
+.malpoongsun{
+    position: absolute;
+    margin-left: 3px;
+    top: 0;
+    right: 2px;    
+    width: 25px;
+    height: 25px;
+    z-index: 2;
+    background:url(/design/minidaum_v5.png) no-repeat -70px -89px;
+    background-size:600%;      
+}
+
+.small-in-navbox{
+    margin-top: 16px;
+    border: 1px solid #cdcdcd;
+    background-color: #fff;
+}
+
+.small-top-icon{
+    padding: 20px;
+    right: 0;
+    border: 1px solid #cdcdcd;
+}
+.small-top-icon img{
+    width: 36px;
+    height: 36px;
+}
+.small-top-icon .col-3{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.small-top-icon p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.small-top-icon a{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.small-top-icon a:hover{
+    text-decoration: underline;
+}
+
+.small-top-list{
+    padding: 20px 22px;
+    font-size: 12px;
+}
+
+.small-top-list li{   
+    width: 25%;
+    border-right: 1px solid #e4e4e4;   
+}
+
+.small-top-list li:last-child{
+    border: none;
+}
+
+.small-top-list a{
+    display: block; 
+    text-decoration: none;
+    line-height: 25px;
+    padding-left: 10px;
+    font-weight: 300;   
+}
+
+.small-top-list a:hover{
+    text-decoration: underline;
+}
+
+.top-right-all{
+    padding: 15px;
+    background-color: #fbfbfb;
+    border-top: 1px solid #f2f2f2;
+    font-size: 13px;
+
+}
+
+.top-right-all a{
+    text-decoration: none;
+}
+
+.top-right-all a:hover{
+    text-decoration: underline;
+}
